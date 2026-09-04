@@ -5,7 +5,7 @@ public:
         int i=0;
         
         while(i<nums.size()){
-            int maximum=INT_MIN;
+        int maximum=INT_MIN;
         int minimum=INT_MAX;
             for(int j=0;j<=i;j++){
                 maximum=max(maximum,nums[j]);
