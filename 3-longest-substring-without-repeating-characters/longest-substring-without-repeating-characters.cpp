@@ -8,7 +8,7 @@ public:
        int count=0;
        int ans=0;
        for(int i=0;i<s.length();i++){
-        if(str.find(s[i])==string:: npos){
+        if(str.find(s[i])>str.length()){
             str=str+s[i];
         }
         else{
