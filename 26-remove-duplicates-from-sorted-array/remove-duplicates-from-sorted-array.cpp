@@ -8,11 +8,13 @@ public:
             }
             temp.push_back(nums[i]);
         }
-        nums.clear();
-        for(int i=0;i<temp.size();i++){
+
+       nums.clear();
+
+        for(int i=0; i<temp.size(); i++) {
             nums.push_back(temp[i]);
-            cout<< nums[i];
         }
+
         return nums.size();
     }
 };
