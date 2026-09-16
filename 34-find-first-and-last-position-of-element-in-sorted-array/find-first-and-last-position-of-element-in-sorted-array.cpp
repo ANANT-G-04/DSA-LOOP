@@ -27,8 +27,8 @@ public:
        }
        res.push_back(ans[ans.size()-1]);
        //last occurence
-       int first=ans[ans.size()-1];
-       int str2=first+1;
+       
+       int str2=ans[ans.size()-1]+1;
        int end2=nums.size()-1;
        while(str2<=end2){
         int mid2=str2+(end2-str2)/2;
