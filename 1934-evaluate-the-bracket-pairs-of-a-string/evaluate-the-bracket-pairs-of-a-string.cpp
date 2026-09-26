@@ -9,7 +9,7 @@ string evaluate(string s,vector<vector<string>>& knowledge){
        
         int l=0;
         if(s[i]=='('){
-            l=s.find(')',i);
+            l=s.find(')');
             string st=s.substr(i+1,l-i-1);
             if(m.find(st)!=m.end()){
                 s.replace(i,l-i+1,m[st]);
